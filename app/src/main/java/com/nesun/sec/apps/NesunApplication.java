@@ -3,6 +3,14 @@ package com.nesun.sec.apps;
 import android.app.Application;
 import android.content.Context;
 
+/***
+ *
+ * 能信安Application
+ *
+ *
+ *
+ *
+ */
 public class NesunApplication extends Application {
 
     private static NesunApplication nesunApplication;
