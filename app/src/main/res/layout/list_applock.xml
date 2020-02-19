@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView_list_applock"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="13dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:src="@mipmap/icon"
+        />
+
+        <TextView
+            android:id="@+id/textView_list_applock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/textview_title_applock_appname_samp"
+            android:textSize="16dp"
+            android:textColor="#444444" />
+
+        <Button
+            android:id="@+id/button_list_applock"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-88dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="23dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/textview_title_applock_appname_samp_remove"
+            android:textSize="15dp"
+            android:focusable="false"
+            android:textColor="@color/white"
+            android:onClick="removeButtonClick"
+            android:background="#00D78D"/>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_marginLeft="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="#19666666"
+        />
+
+</LinearLayout>

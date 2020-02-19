@@ -1,0 +1,2 @@
+include ':app', ':lib'
+rootProject.name='Nxa_Security_APP'

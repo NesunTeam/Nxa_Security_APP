@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/bg_top_bar3"
+    >
+
+    <ImageView
+        android:id="@+id/splash_img_01"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="70dp"
+        android:src="@mipmap/splash_icon"
+        />
+
+
+
+    <com.victor.loading.rotate.RotateLoading
+        android:id="@+id/rotateloading"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        app:loading_width="3dp"
+        app:loading_color="#70ffffff"
+        android:layout_above="@id/splash_text_01"/>
+
+
+    <TextView
+        android:id="@+id/splash_text_01"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="@string/textview_title_splash_text02"
+        android:textSize="13.5dp"
+        android:textColor="#66ffffff"
+        android:layout_above="@id/splash_text_02"
+        />
+
+    <TextView
+        android:id="@+id/splash_text_02"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="@string/textview_title_splash_text03"
+        android:textSize="12.5dp"
+        android:textColor="#66ffffff"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>

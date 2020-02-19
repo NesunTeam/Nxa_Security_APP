@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="portrait"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/comm_background"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/fake_status_bar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_bar_main_sgmore"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@drawable/bg_top_bar"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+
+                <Button
+                    android:id="@+id/button_main_sgmore_back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/back_jiantou" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:text="@string/textview_title_main_tips04"
+                    android:textColor="@color/white"
+                    android:textSize="19dp" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+
+
+
+
+                <ScrollView
+                    android:id="@+id/scrollView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/comm_background"
+                    android:overScrollMode="never"
+                    android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+
+
+
+
+
+
+
+<!--三宫格 功能-->
+
+                <LinearLayout
+                    android:id="@+id/linearyout_main_sgmore_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/linearyout_main_sgmore_sub01"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        >
+
+                        <ImageView
+                            android:layout_marginTop="19dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/main_sgmore_09"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="22dp"
+                            android:gravity="center"
+                            android:text="@string/textview_title_main_6gong_sub07"
+                            android:textColor="#494949"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/gezi_line"
+                        android:layout_height="100dp"
+                        android:background="@color/comm_background"
+                        />
+
+
+                    <LinearLayout
+                        android:id="@+id/linearyout_main_sgmore_sub02"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        >
+
+                        <ImageView
+                            android:layout_marginTop="19dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/main_sgmore_10"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="22dp"
+                            android:gravity="center"
+                            android:text="@string/textview_title_main_6gong_sub08"
+                            android:textColor="#494949"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/gezi_line"
+                        android:layout_height="100dp"
+                        android:background="@color/comm_background"
+                        />
+
+
+                    <LinearLayout
+                        android:id="@+id/linearyout_main_sgmore_sub03"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        >
+
+                        <ImageView
+                            android:layout_marginTop="19dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/main_sgmore_11"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="22dp"
+                            android:gravity="center"
+                            android:text="@string/textview_title_main_6gong_sub09"
+                            android:textColor="#494949"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/linearyout_main_sgmore_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/gezi_line"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/linearyout_main_sgmore_sub04"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        >
+
+                        <ImageView
+                            android:layout_marginTop="19dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/main_sgmore_12"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="22dp"
+                            android:gravity="center"
+                            android:text="@string/textview_title_main_6gong_sub10"
+                            android:textColor="#494949"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/gezi_line"
+                        android:layout_height="100dp"
+                        android:background="@color/comm_background"
+                        />
+
+
+                    <LinearLayout
+                        android:id="@+id/linearyout_main_sgmore_sub05"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        >
+
+                        <ImageView
+                            android:layout_marginTop="19dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/main_sgmore_13"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="22dp"
+                            android:gravity="center"
+                            android:text="@string/textview_title_main_6gong_sub11"
+                            android:textColor="#494949"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/gezi_line"
+                        android:layout_height="100dp"
+                        android:background="@color/comm_background"
+                        />
+
+
+                    <LinearLayout
+                        android:id="@+id/linearyout_main_sgmore_sub06"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        >
+
+                        <ImageView
+                            android:layout_marginTop="19dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/main_sgmore_14"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="22dp"
+                            android:gravity="center"
+                            android:text="@string/textview_title_main_6gong_sub12"
+                            android:textColor="#494949"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/linearyout_main_sgmore_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/gezi_line"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/linearyout_main_sgmore_sub07"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        >
+
+                        <ImageView
+                            android:layout_marginTop="19dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/main_sgmore_15"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="22dp"
+                            android:gravity="center"
+                            android:text="@string/textview_title_main_6gong_sub13"
+                            android:textColor="#494949"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/gezi_line"
+                        android:layout_height="100dp"
+                        android:background="@color/comm_background"
+                        />
+
+
+                    <LinearLayout
+                        android:id="@+id/linearyout_main_sgmore_sub08"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        >
+
+                        <ImageView
+                            android:layout_marginTop="19dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/main_sgmore_16"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="22dp"
+                            android:gravity="center"
+                            android:text="@string/textview_title_main_6gong_sub14"
+                            android:textColor="#494949"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/gezi_line"
+                        android:layout_height="100dp"
+                        android:background="@color/comm_background"
+                        />
+
+
+                    <LinearLayout
+                        android:id="@+id/linearyout_main_sgmore_sub09"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        >
+
+                        <ImageView
+                            android:layout_marginTop="19dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/main_sgmore_17"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="22dp"
+                            android:gravity="center"
+                            android:text="@string/textview_title_main_6gong_sub15"
+                            android:textColor="#494949"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:text="@string/textview_title_main_tips05"
+                    android:textColor="#999999"
+                    android:textSize="14.5dp" />
+
+
+
+<!--      推荐          -->
+
+
+
+
+
+
+                <!--同步助手-->
+                <LinearLayout
+                    android:id="@+id/linearLayout_main_sgmore_t_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@mipmap/main_sgmore_01"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-16dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_sub16"
+                            android:textSize="16dp"
+                            android:textColor="#444444" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-53dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_desc01"
+                            android:textSize="12.8dp"
+                            android:textColor="#77444444" />
+
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/linearLayout_main_sgmore_t_01_button"
+                        android:layout_width="55dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="-80dp"
+                        android:background="@drawable/border_line_while"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:gravity="center"
+                        android:text="@string/textview_title_main_tips06"
+                        android:textColor="#444444"
+                        android:textSize="13.5dp"
+                        />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="70dp"
+                        android:background="#19666666" />
+                </LinearLayout>
+
+
+
+
+
+
+
+                <!--WiFi管家-->
+                <LinearLayout
+                    android:id="@+id/linearLayout_main_sgmore_t_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@mipmap/main_sgmore_02"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-16dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_sub17"
+                            android:textSize="16dp"
+                            android:textColor="#444444" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-53dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_desc02"
+                            android:textSize="12.8dp"
+                            android:textColor="#77444444" />
+
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/linearLayout_main_sgmore_t_02_button"
+                        android:layout_width="55dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="-80dp"
+                        android:background="@drawable/border_line_while"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:gravity="center"
+                        android:text="@string/textview_title_main_tips06"
+                        android:textColor="#444444"
+                        android:textSize="13.5dp"
+                        />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="70dp"
+                        android:background="#19666666" />
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+                <!--预装卸载-->
+                <LinearLayout
+                    android:id="@+id/linearLayout_main_sgmore_t_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@mipmap/main_sgmore_03"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-16dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_sub18"
+                            android:textSize="16dp"
+                            android:textColor="#444444" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-53dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_desc03"
+                            android:textSize="12.8dp"
+                            android:textColor="#77444444" />
+
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/linearLayout_main_sgmore_t_03_button"
+                        android:layout_width="55dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="-80dp"
+                        android:background="@drawable/border_line_while"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:gravity="center"
+                        android:text="@string/textview_title_main_tips06"
+                        android:textColor="#444444"
+                        android:textSize="13.5dp"
+                        />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="70dp"
+                        android:background="#19666666" />
+                </LinearLayout>
+
+
+
+
+
+
+
+
+                <!--净化大师-->
+                <LinearLayout
+                    android:id="@+id/linearLayout_main_sgmore_t_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@mipmap/main_sgmore_04"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-16dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_sub19"
+                            android:textSize="16dp"
+                            android:textColor="#444444" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-53dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_desc04"
+                            android:textSize="12.8dp"
+                            android:textColor="#77444444" />
+
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/linearLayout_main_sgmore_t_04_button"
+                        android:layout_width="55dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="-80dp"
+                        android:background="@drawable/border_line_while"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:gravity="center"
+                        android:text="@string/textview_title_main_tips06"
+                        android:textColor="#444444"
+                        android:textSize="13.5dp"
+                        />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="70dp"
+                        android:background="#19666666" />
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+                <!--QQ浏览器-->
+                <LinearLayout
+                    android:id="@+id/linearLayout_main_sgmore_t_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@mipmap/main_sgmore_05"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-16dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_sub20"
+                            android:textSize="16dp"
+                            android:textColor="#444444" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-53dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_desc05"
+                            android:textSize="12.8dp"
+                            android:textColor="#77444444" />
+
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/linearLayout_main_sgmore_t_05_button"
+                        android:layout_width="55dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="-80dp"
+                        android:background="@drawable/border_line_while"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:gravity="center"
+                        android:text="@string/textview_title_main_tips06"
+                        android:textColor="#444444"
+                        android:textSize="13.5dp"
+                        />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="70dp"
+                        android:background="#19666666" />
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+                <!--应用宝-->
+                <LinearLayout
+                    android:id="@+id/linearLayout_main_sgmore_t_06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@mipmap/main_sgmore_06"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-16dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_sub21"
+                            android:textSize="16dp"
+                            android:textColor="#444444" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-53dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_desc06"
+                            android:textSize="12.8dp"
+                            android:textColor="#77444444" />
+
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/linearLayout_main_sgmore_t_06_button"
+                        android:layout_width="55dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="-80dp"
+                        android:background="@drawable/border_line_while"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:gravity="center"
+                        android:text="@string/textview_title_main_tips06"
+                        android:textColor="#444444"
+                        android:textSize="13.5dp"
+                        />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="70dp"
+                        android:background="#19666666" />
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+                <!--相册管家-->
+                <LinearLayout
+                    android:id="@+id/linearLayout_main_sgmore_t_07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@mipmap/main_sgmore_07"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-16dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_sub22"
+                            android:textSize="16dp"
+                            android:textColor="#444444" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-53dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_desc07"
+                            android:textSize="12.8dp"
+                            android:textColor="#77444444" />
+
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/linearLayout_main_sgmore_t_07_button"
+                        android:layout_width="55dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="-80dp"
+                        android:background="@drawable/border_line_while"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:gravity="center"
+                        android:text="@string/textview_title_main_tips06"
+                        android:textColor="#444444"
+                        android:textSize="13.5dp"
+                        />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="70dp"
+                        android:background="#19666666" />
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+                <!--电池管理-->
+                <LinearLayout
+                    android:id="@+id/linearLayout_main_sgmore_t_08"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@mipmap/main_sgmore_08"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-16dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_sub23"
+                            android:textSize="16dp"
+                            android:textColor="#444444" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-53dp"
+                            android:layout_gravity="fill_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/textview_title_main_6gong_desc08"
+                            android:textSize="12.8dp"
+                            android:textColor="#77444444" />
+
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/linearLayout_main_sgmore_t_08_button"
+                        android:layout_width="55dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="-80dp"
+                        android:background="@drawable/border_line_while"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:gravity="center"
+                        android:text="@string/textview_title_main_tips06"
+                        android:textColor="#444444"
+                        android:textSize="13.5dp"
+                        />
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_marginLeft="70dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="13dp"
+                    />
+
+
+
+
+                <!--      推荐          -->
+
+
+            </LinearLayout>
+
+
+                </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

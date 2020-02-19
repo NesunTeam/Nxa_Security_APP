@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/bg_top_bar2"
+    >
+
+
+
+    <com.nesun.sec.apps.view.customview.CustomVideoView
+        android:id="@+id/customVideoView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:id="@+id/imageView_splash_backgrouard_01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:id="@+id/splash_video_img_01"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/splash_icon3"
+        />
+
+    <ImageView
+        android:id="@+id/splash_video_img_02"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="-40dp"
+        android:src="@mipmap/splash_icon2"
+        android:background="@mipmap/splash_icon2_back"
+        />
+
+    <ImageView
+        android:id="@+id/splash_video_img_03"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:paddingTop="80dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/splash_title"
+        />
+
+
+    <Button
+        android:id="@+id/splash_button_start_app"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/splash_video_img_03"
+        android:layout_centerHorizontal="true"
+        android:text="@string/textview_title_splash_button"
+        android:textSize="17dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_circle_shape"></Button>
+
+
+    <RelativeLayout
+        android:id="@+id/LinearLayout_splash_rule01"
+        android:layout_below="@id/splash_button_start_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView_splash_rule01"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:paddingLeft="15dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="@string/textview_title_splash_text01"
+            android:textSize="11dp"
+            android:textColor="#66ffffff"
+            />
+
+        <ImageView
+            android:id="@+id/imageView_splash_rule01"
+            android:layout_toLeftOf="@id/textView_splash_rule01"
+            android:paddingTop="7.3dp"
+            android:paddingBottom="7.3dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="-19dp"
+            android:src="@mipmap/splash_check_yes"
+            />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

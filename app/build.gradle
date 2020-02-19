@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.nesun.sec.apps"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+
+//    implementation 'com.king.view:loadingview:1.0.0' // loding特效
+//    implementation 'com.king.view:spincounterview:1.1.1' // 贷款特效
+//    implementation 'com.king.view:circleprogressview:1.1.0' // 充电特效进度展示
+//    implementation 'com.github.ksoichiro:android-observablescrollview:1.6.0' // 上划标题栏变色
+//    implementation 'com.nineoldandroids:library:2.4.0'
+//    implementation 'am.widget:circleprogressbar:1.0.3' // 速度测速表条
+//    implementation 'com.github.zzz40500:android-shapeLoadingView:1.0.3.2' // 防58加载进度动画
+//    implementation 'com.unstoppable:submitbutton:1.1.3'//带发送动画的按钮
+
+    // UI
+    implementation 'com.victor:lib:1.0.4'// 简单的圆形进度条（使用）
+    implementation 'com.github.HanHuoBin:BaseDialog:1.2.0' // 常用各种BaseDialog（使用了一个带输入Dialog）
+    implementation 'com.lxj:xpopup:1.8.10' // 弹窗（使用一个 弹出式列表）
+    implementation 'com.nightonke:boommenu:2.1.1'// 圆形弹出式图标（隐私空间新增文件等 悬浮按钮）
+
+    // 图片加载框架
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+
+    //butterknife UI绑定
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+1
+    // 权限声明
+    implementation 'com.jaredrummler:android-processes:1.0.8'
+
+    // GSON
+    implementation 'com.google.code.gson:gson:2.8.2'
+
+    // OKHTTP3
+    implementation 'com.squareup.okhttp3:okhttp:3.12.5'
+
+}
+
+
+allprojects {
+    repositories {
+        maven { url 'https://dl.bintray.com/jenly/maven' }
+        maven { url "http://repo1.maven.org/maven2" }
+        maven { url "https://maven.google.com"}
+        maven { url "https://jitpack.io"}
+        jcenter()
+        mavenCentral()
+        google()
+    }
+}
+
+allprojects { repositories { jcenter() } }

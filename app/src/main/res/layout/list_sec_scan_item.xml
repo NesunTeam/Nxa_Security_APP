@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView_sec_scan_item_01"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="21dp"
+                android:alpha="0.4"
+                android:src="@mipmap/sec_scan_item_01"
+                />
+
+
+            <com.victor.loading.rotate.RotateLoading
+                android:id="@+id/rotateloading_sec_scan_item_01"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                app:loading_width="2dp"
+                app:loading_color="@color/colorSecScanLoding"/>
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/textView_sec_scan_item_01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill_vertical"
+            android:gravity="center_vertical"
+            android:text="病毒木马"
+            android:textSize="16dp"
+            android:textColor="#80444444" />
+
+        <TextView
+            android:id="@+id/textView_sec_scan_item_02"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill_vertical"
+            android:layout_marginLeft="-75dp"
+            android:gravity="center"
+            android:text="扫描中"
+            android:textSize="16dp"
+            android:textColor="#80444444" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_marginLeft="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#10666666"
+        />
+
+</LinearLayout>

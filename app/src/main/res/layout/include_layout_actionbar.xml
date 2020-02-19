@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:screenOrientation="portrait"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/fake_status_bar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_bar_image_picker"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@drawable/bg_top_bar"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+
+                <ImageView
+                    android:id="@+id/iv_actionBar_back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/back_jiantou" />
+
+                <TextView
+                    android:id="@+id/tv_actionBar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:text="@string/image_picker"
+                    android:textColor="@color/white"
+                    android:textSize="19dp" />
+
+
+                <TextView
+                    android:id="@+id/tv_actionBar_commit"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/selector_bt_commit"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="@string/confirm"
+                    android:textColor="@color/text_color_white"
+                    android:textSize="15dp" />
+
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+</LinearLayout>

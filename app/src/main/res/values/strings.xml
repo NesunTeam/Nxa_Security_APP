@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">能信安卫士</string>
+
+
+
+
+    <!--    IMGGGGGG -->
+
+    <string name="image_picker">图片选择器</string>
+    <string name="scanner_image">正在扫描图片..</string>
+    <string name="select_image_max">最多选择%1$d张图片</string>
+    <string name="confirm">确定</string>
+    <string name="confirm_msg">确定(%1$d/%2$d)</string>
+    <string name="image_num">%d张</string>
+    <string name="scanner_image_no_found">没有扫描到图片</string>
+    <string name="all_media">全部</string>
+    <string name="all_video">所有视频</string>
+    <string name="take_photo">拍摄照片</string>
+    <string name="permission_tip">当前没有读取存储卡或摄像头权限</string>
+    <string name="image_select">选择</string>
+    <string name="single_type_choose">不能同时选择图片与视频</string>
+
+
+
+
+    <!--  FM Add  191217 -->
+    <string name="textview_title_about">关于</string>
+    <string name="textview_about_version">7.0.0 Build 1201</string>
+    <string name="textview_option_about_01">粉丝论坛</string>
+    <string name="textview_option_about_02">推荐好友</string>
+    <string name="textview_option_about_03">使用协议</string>
+    <string name="textview_option_about_04">官方网站</string>
+
+    <string name="textview_title_user_protocol">使用协议</string>
+
+
+    <string name="textview_title_user_title">个人中心</string>
+    <string name="textview_title_user_text01">未登录</string>
+    <string name="textview_title_user_text02">积分 0</string>
+    <string name="textview_title_user_text03">微信保护</string>
+    <string name="textview_title_user_text04">QQ保护</string>
+    <string name="textview_title_user_text05">手机保障</string>
+
+    <string name="textview_title_user_text_tab_01">我的积分</string>
+    <string name="textview_title_user_text_tab_02">使用管家可以兑换优质礼品</string>
+    <string name="textview_title_user_text_tab_03">热门应用</string>
+    <string name="textview_title_user_text_tab_04">推荐最热门、最好玩的应用</string>
+    <string name="textview_title_user_text_tab_05">骚扰拦截</string>
+    <string name="textview_title_user_text_tab_06">拦截恶意诈骗信息与来电</string>
+    <string name="textview_title_user_text_tab_07">登录账户</string>
+    <string name="textview_title_user_text_tab_08">登录账户绑定手机可领取30积分</string>
+    <string name="textview_title_user_text_tab_09">立即查看</string>
+
+
+
+    <string name="textview_title_splash_button">马上体验</string>
+    <string name="textview_title_splash_text01">已同意《手机卫士用户服务协议》</string>
+    <string name="textview_title_splash_text02">Copyright @ 2010-2020 Nesun.</string>
+    <string name="textview_title_splash_text03">All Rights Reserved</string>
+
+    <string name="textview_title_applock">应用锁</string>
+    <string name="textview_title_applock_sub01">常用软件</string>
+    <string name="textview_title_applock_sub02">系统软件</string>
+    <string name="button_applock_addapp">添 加</string>
+    <string name="textview_title_applock_sub_tip01">普通软件锁</string>
+    <string name="textview_title_applock_sub_tip02">添加之后，锁住软件里的小秘密</string>
+    <string name="textview_title_applock_appname_samp">应用A</string>
+    <string name="textview_title_applock_appname_samp_remove">解锁</string>
+
+
+
+
+    <string name="textview_title_userprotocol_01">粉丝论坛</string>
+    <string name="textview_title_userprotocol_02">使用协议</string>
+    <string name="textview_title_userprotocol_03">官方网站</string>
+    <string name="textview_title_userprotocol_04">使用教程</string>
+
+    <string name="textview_title_setting">设置</string>
+    <string name="textview_title_setting_sub01">软件锁</string>
+    <string name="textview_title_setting_sub02">加锁时机设定</string>
+    <string name="textview_title_setting_sub03">当前版本</string>
+    <string name="textview_title_setting_sub03_version">v1.0.0.8</string>
+
+    <string name="textview_title_setting_sub02_01">直到锁屏再加锁</string>
+    <string name="textview_title_setting_sub02_02">退出应用后立即加锁</string>
+
+
+    <string name="textview_title_setting_option01">权限管理</string>
+    <string name="textview_title_setting_option02">通知栏图标</string>
+    <string name="textview_title_setting_option03">快捷中心开关</string>
+    <string name="textview_title_setting_option04">验证码识别开关</string>
+    <string name="textview_title_setting_option05">小火箭与悬浮窗</string>
+    <string name="textview_title_setting_option06">安全检测</string>
+    <string name="textview_title_setting_option07">修改手势密码</string>
+    <string name="textview_title_setting_option08">软件管理</string>
+    <string name="textview_title_setting_option09">骚扰拦截</string>
+    <string name="textview_title_setting_option10">安全短信</string>
+    <string name="textview_title_setting_option11">来电秀</string>
+    <string name="textview_title_setting_option12">隐私保护</string>
+    <string name="textview_title_setting_option13">手机防盗</string>
+    <string name="textview_title_setting_option14">流量监控</string>
+    <string name="textview_title_setting_option15">更新设置</string>
+    <string name="textview_title_setting_option16">使用教程</string>
+    <string name="textview_title_setting_option17">关于</string>
+    <string name="textview_title_setting_option18">退出</string>
+
+
+    <string name="textview_title_feedback">提交反馈</string>
+    <string name="textview_title_feedback_tip01">有问题或建议，请反馈给我们。可以帮助我们更有效了解情况哦~</string>
+    <string name="textview_title_feedback_tip02">联系方式</string>
+    <string name="textview_title_feedback_hind01"> 请输入您遇到的问题或建议</string>
+    <string name="textview_title_feedback_hind02"> 请填写微信号、手机号或QQ</string>
+    <string name="textview_title_feedback_sub">提  交</string>
+
+    <string name="textview_title_gesturelock">设置图案密码</string>
+    <string name="textview_title_gesturelock_tip01">设置隐私保护图案密码</string>
+
+    <string name="textview_title_gesturelock_check">图案密码</string>
+    <string name="textview_title_gesturelock_check_tip01">请绘画图案密码</string>
+    <string name="textview_title_gesturelock_check_tip02">最少连接4个点, 请重新输入</string>
+    <string name="textview_title_gesturelock_check_tip03">再次绘制图案密码</string>
+    <string name="textview_title_gesturelock_check_tip04">与第一次绘制不一致</string>
+    <string name="textview_title_gesturelock_check_tip05">修改成功</string>
+    <string name="textview_title_gesturelock_check_tip06">密码错误，请重新绘画</string>
+    <string name="textview_title_gesturelock_check_tip07">请输入您遇到的问题或建议</string>
+    <string name="textview_title_gesturelock_check_tip08">请填写您的联系方式</string>
+    <string name="textview_title_gesturelock_check_tip09">提交成功</string>
+    <string name="textview_title_gesturelock_check_tip10">请同意并勾选用户协议</string>
+    <string name="textview_title_gesturelock_check_tip11">提交失败</string>
+    <string name="textview_title_gesturelock_check_tip12">提交异常</string>
+    <string name="textview_title_gesturelock_check_tip13">正在提交...</string>
+
+
+
+    <string name="textview_title_main_tips01">已开启安全防护</string>
+    <string name="textview_title_main_tips02">您有一条新消息未读</string>
+    <string name="textview_title_main_tips03">实用工具</string>
+    <string name="textview_title_main_tips04">更多</string>
+    <string name="textview_title_main_tips05">推荐</string>
+    <string name="textview_title_main_tips06">开启</string>
+    <string name="textview_title_main_tips07">小卫推荐</string>
+    <string name="textview_title_main_tips08">一键优化</string>
+    <string name="textview_title_main_tips09">体检中...</string>
+
+
+    <string name="textview_title_main_tips07_sub01">积分中心有福利可领取</string>
+    <string name="textview_title_main_tips07_sub02">Q币话费随意领</string>
+    <string name="textview_title_main_tips07_sub03">一键连接免费WIFI</string>
+    <string name="textview_title_main_tips07_sub04">不担心流量上网更畅快</string>
+    <string name="textview_title_main_tips07_sub05">自动备份功能未开启</string>
+    <string name="textview_title_main_tips07_sub06">定时备份，数据不丢失</string>
+
+    <string name="textview_title_main_tips07_sub07">深圳市能信安技术有限公司</string>
+    <string name="textview_title_main_tips07_sub08">08</string>
+    <string name="textview_title_main_tips07_sub09">天</string>
+
+
+    <string name="textview_title_main_4sub01">安全检测</string>
+    <string name="textview_title_main_4sub02">权限监控</string>
+    <string name="textview_title_main_4sub03">应用锁</string>
+    <string name="textview_title_main_4sub04">隐私空间</string>
+    <string name="textview_title_main_4sub_tip01">新软件检测安全</string>
+    <string name="textview_title_main_4sub_tip02">有5条权限待监控</string>
+    <string name="textview_title_main_4sub_tip03">软件启动时防护</string>
+    <string name="textview_title_main_4sub_tip04">加密相册及文件</string>
+
+
+    <string name="textview_title_main_6gong_sub01">万年历</string>
+    <string name="textview_title_main_6gong_sub02">天气通</string>
+    <string name="textview_title_main_6gong_sub03">网络加速</string>
+    <string name="textview_title_main_6gong_sub04">硬件检测</string>
+    <string name="textview_title_main_6gong_sub05">一键锁屏</string>
+    <string name="textview_title_main_6gong_sub06">更多</string>
+
+    <string name="textview_title_main_6gong_sub07">话费充值</string>
+    <string name="textview_title_main_6gong_sub08">强力加速</string>
+    <string name="textview_title_main_6gong_sub09">游戏助手</string>
+    <string name="textview_title_main_6gong_sub10">健康锁屏</string>
+    <string name="textview_title_main_6gong_sub11">红包闹钟</string>
+    <string name="textview_title_main_6gong_sub12">隐私保护</string>
+    <string name="textview_title_main_6gong_sub13">软件锁</string>
+    <string name="textview_title_main_6gong_sub14">支付保险箱</string>
+    <string name="textview_title_main_6gong_sub15">通知栏清理</string>
+
+    <string name="textview_title_main_6gong_sub16">同步助手</string>
+    <string name="textview_title_main_6gong_sub17">WiFi管家</string>
+    <string name="textview_title_main_6gong_sub18">预装卸载</string>
+    <string name="textview_title_main_6gong_sub19">净化大师</string>
+    <string name="textview_title_main_6gong_sub20">QQ浏览器</string>
+    <string name="textview_title_main_6gong_sub21">应用宝</string>
+    <string name="textview_title_main_6gong_sub22">相册管家</string>
+    <string name="textview_title_main_6gong_sub23">电池管家</string>
+
+    <string name="textview_title_main_6gong_desc01">通讯录一键备份</string>
+    <string name="textview_title_main_6gong_desc02">免密码 安全连</string>
+    <string name="textview_title_main_6gong_desc03">一键卸载预装应用</string>
+    <string name="textview_title_main_6gong_desc04">拦截应用内广告</string>
+    <string name="textview_title_main_6gong_desc05">快速 安全 省流量</string>
+    <string name="textview_title_main_6gong_desc06">更懂你的应用市场</string>
+    <string name="textview_title_main_6gong_desc07">照片安全备份</string>
+    <string name="textview_title_main_6gong_desc08">延长30%使用时间</string>
+
+
+
+
+
+
+</resources>

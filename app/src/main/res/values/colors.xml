@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+
+
+    <color name="tool_bar_color">#303030</color>
+    <color name="bg_color">#303030</color>
+
+    <color name="text_color_white">#FFFFFF</color>
+    <color name="text_bg_gray">#40000000</color>
+
+    <color name="bg_black">#000000</color>
+
+
+    <!-- -->
+
+
+
+<color name="colorPrimary">#469EFE</color>
+    <color name="colorPrimary2">#3F2BF4</color>
+
+
+
+    <color name="colorPrimary_sec01">#469EFE</color>
+    <color name="colorPrimary_sec02">#3F2BF4</color>
+
+    <color name="colorPrimary_sec03">#fdc825</color>
+    <color name="colorPrimary_sec04">#ff8602</color>
+
+    <color name="colorPrimary_sec05">#fa6d35</color>
+    <color name="colorPrimary_sec06">#ef1130</color>
+
+    <color name="colorPrimary_sec07">#85ea6d</color>
+    <color name="colorPrimary_sec08">#06b85f</color>
+
+
+
+
+    <color name="colorPrimarySplash">#34CFF8</color>
+    <color name="colorPrimarySplash2">#4330EC</color>
+
+    <color name="adBancolorPrimary01">#FF9392</color>
+    <color name="adBancolorPrimary02">#FFC086</color>
+    <color name="adBancolorPrimary03">#1BCB4E</color>
+    <color name="adBancolorPrimary04">#30FDAB</color>
+    <color name="adBancolorPrimary05">#7723DC</color>
+    <color name="adBancolorPrimary06">#5370FE</color>
+
+
+        <color name="button_back_splash_on">#cc00A25C</color>
+
+
+
+    <color name="colorPrimaryDark">#00574B</color>
+<color name="colorAccent">#D81B60</color>
+<color name="white">#FFFFFF</color>
+<color name="black_overlay">#66000000</color>
+<color name="comm_background">#F3F3F3</color>
+    <color name="primary">#009688</color>
+
+
+<!--  SEC C|SCANNING  -->
+
+    <color name="colorCircleOrLine">#50FFFFFF</color>
+    <color name="colorCircleOrLine2">#aaFFFFFF</color>
+    <color name="colorCircleOrLine3">#88FFFFFF</color>
+    <color name="colorArc">#22FDAB</color>
+    <color name="colorLine">#60FFFFFF</color>
+    <color name="colorArcBorder">#aaFFFFFF</color>
+    <color name="colorSecScanLoding">#cc369EFE</color>
+
+</resources>

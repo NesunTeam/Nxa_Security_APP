@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:screenOrientation="portrait"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <View
+            android:id="@+id/fake_status_bar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_bar_applock_setting"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@drawable/bg_top_bar"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+
+                <Button
+                    android:id="@+id/button_applock_setting_back"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/back_jiantou" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="35dp"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:text="@string/textview_title_setting"
+                    android:textColor="@color/white"
+                    android:textSize="19dp" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+
+
+
+
+        <ScrollView
+            android:id="@+id/scrollView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#11999999"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <!--软件锁-->
+                <LinearLayout
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@mipmap/setting_icon_03"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView_applock_setting_sub_01"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center_vertical"
+                        android:text="@string/textview_title_setting_sub01"
+                        android:textSize="16dp"
+                        android:textColor="#444444" />
+
+
+                    <Switch
+                        android:checked="true"
+                        android:id="@+id/switch_applock_setting_01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="-75dp"
+                        android:switchMinWidth="20dp"
+                        android:textOn=""
+                        android:textOff=""
+                        android:thumb="@drawable/thumb"
+                        android:track="@drawable/track"
+                        />
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="#19666666"
+                    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!--加锁时机设定-->
+                <LinearLayout
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@mipmap/setting_icon_06"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView_applock_setting_sub_02"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center_vertical"
+                        android:text="@string/textview_title_setting_sub02"
+                        android:textSize="16dp"
+                        android:textColor="#444444" />
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!--当前版本-->
+                <LinearLayout
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@mipmap/setting_icon_17"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView_applock_setting_sub_03"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center_vertical"
+                        android:text="@string/textview_title_setting_sub03"
+                        android:textSize="16dp"
+                        android:textColor="#444444" />
+
+
+
+                    <TextView
+                        android:layout_marginLeft="-100dp"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/textview_title_setting_sub03_version"
+                        android:textSize="16dp"
+                        android:textColor="#66444444" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>
