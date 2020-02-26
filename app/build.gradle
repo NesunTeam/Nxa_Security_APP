@@ -66,13 +66,13 @@ dependencies {
 
 allprojects {
     repositories {
+        google()
+        jcenter()
+        mavenCentral()
         maven { url 'https://dl.bintray.com/jenly/maven' }
         maven { url "http://repo1.maven.org/maven2" }
         maven { url "https://maven.google.com"}
         maven { url "https://jitpack.io"}
-        jcenter()
-        mavenCentral()
-        google()
     }
 }
 
